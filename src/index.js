@@ -1,4 +1,14 @@
-import main from './main.js'
+import fireworks from './main.js'
 import './main.css';
 
-main()
+
+import React from 'react'
+import ReactDOM from 'react-dom'
+import App from './App'
+
+ReactDOM.render(
+    <App name="Alex" />,
+    document.querySelector('#container'),
+)
+
+fireworks()
